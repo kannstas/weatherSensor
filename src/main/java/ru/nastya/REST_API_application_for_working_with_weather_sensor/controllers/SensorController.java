@@ -11,10 +11,9 @@ import org.springframework.web.bind.annotation.*;
 import ru.nastya.REST_API_application_for_working_with_weather_sensor.dto.SensorDTO;
 import ru.nastya.REST_API_application_for_working_with_weather_sensor.models.Sensor;
 import ru.nastya.REST_API_application_for_working_with_weather_sensor.services.SensorService;
-import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.SensorErrorResponse;
-import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.SensorRegistrationError;
-import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.SensorValidator;
-
+import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.errors.SensorErrorResponse;
+import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.errors.SensorRegistrationError;
+import ru.nastya.REST_API_application_for_working_with_weather_sensor.util.validators.SensorValidator;
 import java.util.List;
 
 @RestController

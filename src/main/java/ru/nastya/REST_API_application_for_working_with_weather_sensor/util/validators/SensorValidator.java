@@ -1,4 +1,4 @@
-package ru.nastya.REST_API_application_for_working_with_weather_sensor.util;
+package ru.nastya.REST_API_application_for_working_with_weather_sensor.util.validators;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -36,4 +36,5 @@ public class SensorValidator implements Validator {
         }
 
     }
+
 }

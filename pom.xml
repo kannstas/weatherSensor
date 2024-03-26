@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.nastya</groupId>
-	<artifactId>REST_API_application_for_working_with_weather_sensor</artifactId>
+	<artifactId>weatherSensor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>REST_API_application_for_working_with_weather_sensor</name>
 	<description>Demo project for Spring Boot</description>
